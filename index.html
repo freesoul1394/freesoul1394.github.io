@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image" href="assets/img/favicon.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
 	<!-- CSS here -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -24,14 +24,6 @@
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" href="assets/css/nice-select.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-  <!-- Slick Carousel -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
-  <!-- FancyBox -->
-  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
-
-  <!-- Stylesheets -->
-  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <!-- ? Preloader Start -->
@@ -125,63 +117,39 @@
     </header>
     <main>
         <!--? slider Area Start-->
-        <!--=================================
-        =            Page Slider            =
-        ==================================-->
-        <div class="hero-slider">
-            <!-- Slider Item -->
-            <div class="slider-item slide1" style="background-image:url(images/slider/slider-bg-1.jpg)">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <!-- Slide Content Start -->
-                            <div class="content style text-center">
-                                <h2 class="text-white text-bold mb-2">Our Best Surgeons</h2>
-                                <p class="tag-text mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sunt animi sequi ratione quod at earum. <br>
-                                     Quis quos officiis numquam!</p>
-                                <a href="#" class="btn btn-main btn-white">explore</a>
+        <div class="slider-area position-relative">
+            <div class="slider-active">
+                <!-- Single Slider -->
+                <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(images/slider/slider-bg-1.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-9 col-md-8 col-sm-9">
+                                <div class="hero__caption">
+                                    <h1 data-animation="fadeInLeft" data-delay="0.2s">Speak Easy With <span>Speak Shack Online English</span></h1>
+                                    <p data-animation="fadeInLeft" data-delay="0.4s">Learn English Through Whatsapp</p>
+                                    <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">Learn More <i class="ti-arrow-right"></i></a>
+                                </div>
                             </div>
-                            <!-- Slide Content End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Slider -->
+                <div class="single-slider slider-height d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-9 col-md-8 col-sm-9">
+                                <div class="hero__caption">
+                                    <h1 data-animation="fadeInLeft" data-delay="0.2s">Online English <span>Speaking Platform</span></h1>
+                                    <p data-animation="fadeInLeft" data-delay="0.4s">Learn English Through Whatsapp</p>
+                                    <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">Learn More <i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Slider Item -->
-            <div class="slider-item" style="background-image:url(images/slider/slider-bg-2.jpg);">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <!-- Slide Content Start-->
-                            <div class="content style text-right">
-                                <h2 class="text-white">We Care About <br>Your Health</h2>
-                                <p class="tag-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                                <a href="#" class="btn btn-main btn-white">about us</a>
-                            </div>
-                            <!-- Slide Content End-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Slider Item -->
-            <div class="slider-item" style="background-image:url(images/slider/slider-bg-3.jpg)">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <!-- Slide Content Start -->
-                            <div class="content text-center style">
-                                <h2 class="text-white text-bold mb-2">Best Medical Services</h2>
-                                <p class="tag-text mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deserunt,
-                                    <br>eius pariatur minus itaque nostrum.</p>
-                                <a href="shop.html" class="btn btn-main btn-white">shop now</a>
-                            </div>
-                            <!-- Slide Content End -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!--====  End of Page Slider  ====-->
+        </div>
         <!-- slider Area End-->
         <!--? About 1 Start-->
         <section class="about-low-area section-padding40">
@@ -786,22 +754,7 @@
     <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
-    <script src="plugins/jquery.js"></script>
-    <script src="plugins/bootstrap.min.js"></script>
-    <script src="plugins/bootstrap-select.min.js"></script>
-    <!-- Slick Slider -->
-    <script src="plugins/slick/slick.min.js"></script>
-    <!-- FancyBox -->
-    <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
-    <script src="plugins/google-map/gmap.js"></script>
 
-    <script src="plugins/validate.js"></script>
-    <script src="plugins/wow.js"></script>
-    <script src="plugins/jquery-ui.js"></script>
-    <script src="plugins/timePicker.js"></script>
-    <script src="js/script.js"></script>
 
     </body>
 </html>
