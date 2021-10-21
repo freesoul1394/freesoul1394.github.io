@@ -145,10 +145,12 @@
         background-color: rgba(0, 0, 0, 0.6);
         color: #ffffff;
       }
+@media screen and (max-width: 600px)
+{
   .banner-header
   {
     color:white; font-size:30px; font-weight:bold;
-  }
+  }}
   </style>
   <div id="demo" class="carousel slide" data-ride="carousel">
 <ul class="carousel-indicators">
@@ -158,8 +160,8 @@
 </ul>
 <div class="carousel-inner">
 <div class="carousel-item active">
-<img src="assets/img/hero/webbanner2.jpg" alt="Los Angeles" width="1100" height="500">
-<div id="overlay" > </div>
+<img id="overlay" src="assets/img/hero/webbanner2.jpg" alt="Los Angeles" width="1100" height="500">
+
                                 <div class="carousel-caption" >
                                     <h1 class="banner-header" data-animation="fadeInLeft" data-delay="0.2s">Speak Easy With <span>Speak Shack Online Enlish Academy</span></h1>
                                     <p style="color:white;" data-animation="fadeInLeft" data-delay="0.4s">The right candidate may exist, but talented people</p>
